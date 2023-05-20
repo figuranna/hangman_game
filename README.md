@@ -5,49 +5,49 @@ A Haladó Python kurzuson tanult angol kifejezéseket felhasználó akasztófa j
 ## Importált csomagok
 *random*
 
-*string -> ascii_uppercase*
+- *string -> ascii_uppercase*
 
-_tkinter –> *_
+- _tkinter –> *_
 
-*tkinter –> messagebox*
+- *tkinter –> messagebox*
 
 ## Listák
 Ezen listák tartalma nem változik a program működése alatt, csak adatokat szolgálnak.
 
-*word_list*: a kitalálandó szavakat tartalmazza
+- *word_list*: a kitalálandó szavakat tartalmazza
 
-*hangman*: a string-ből összeállított akasztófa szakaszait tartalmazza
+- *hangman*: a string-ből összeállított akasztófa szakaszait tartalmazza
 
 ## Változók
 ### Stringek
-*text_color*: a megjelenő program szövegszínét itt tároljuk
+- *text_color*: a megjelenő program szövegszínét itt tároljuk
 
-*random_word*: a *word_list*-ből kiválasztott véletlenszerű szó
+- *random_word*: a *word_list*-ből kiválasztott véletlenszerű szó
 
-*word_with_spaces*: *random_word* karakterei között szóközök vannak
+- *word_with_spaces*: *random_word* karakterei között szóközök vannak
 
 ### Integerek
 
-*number_of_wrong_guesses*: sikertelen tippeket
+- *number_of_wrong_guesses*: sikertelen tippeket
 
-*won*: nyert körök
+- *won*: nyert körök
 
-*lost*: elvesztett körök
+- *lost*: elvesztett körök
 
 ### Listák
-*word*: a kitalálandó szó karaktereit tárolja
+- *word*: a kitalálandó szó karaktereit tárolja
 
-*guessed*: guess_word-nek a char tömbje
+- *guessed*: guess_word-nek a char tömbje
 
 ### Label
-*hangman_Label*: maga az akasztófa tartója
+- *hangman_Label*: maga az akasztófa tartója
 
-*guess_word*: kitalálandó szó
+- *guess_word*: kitalálandó szó
 
 ## Függvények
-*new_game*: új játékot kezd
+- *new_game*: új játékot kezd
 
-*guess*: a játékmenetéért felel, ellenőrzi, hogy a kitalálandó szó karakterei
+- *guess*: a játékmenetéért felel, ellenőrzi, hogy a kitalálandó szó karakterei
 megegyeznek-e a felhasználó által beütött karakterekkel.
 
 ## Program működése
