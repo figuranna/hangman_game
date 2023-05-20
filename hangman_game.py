@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter import messagebox
 
 root = Tk()
-root.title("Python Hangman - RL114D")
+root.title("Python Hangman")
 
 # Color
 text_color = '#3b7ac4'
@@ -24,6 +24,7 @@ guess_word = StringVar()
 def new_game():
     global word_with_spaces
     global number_of_wrong_guesses
+    global random_word
     number_of_wrong_guesses = 0
 
 
@@ -59,7 +60,7 @@ def guess(char):
 
             if number_of_wrong_guesses == 6:
                 lost += 1
-                messagebox.showwarning("(`皿´＃)", f'Try again!\nWon: {won} Lost: {lost}')
+                messagebox.showwarning("(`皿´＃)", f'Better luck next time!\n\nThe word was: {random_word}\n\nWon: {won} Lost: {lost}')
 
 
 # Layout
@@ -72,11 +73,12 @@ hangman_Label.grid(row=0, column=0, columnspan=3, padx=10, pady=40)
 # Input
 n = 0
 for char in ascii_uppercase:
-    Button(root, text=char, command=lambda char=char: guess(char), fg=text_color, font='Verdena 16', width=4).grid(row=1 + n // 9, column=n % 9)
+    Button(root, text=char, command=lambda c=char: guess(c), fg=text_color, font='Verdena 16', width=4).grid(row=1 + n // 9, column=n % 9)
     n += 1
 
-Button(root, text="New\nGame", command=lambda: new_game(), bg=text_color, fg='#fff', font="Verdena 10 bold").grid(
-    row=3, column=8)
+Button(root, text="New\nGame", command=lambda: new_game(), bg=text_color, fg='#fff', font="Verdena 10 bold").grid(row=3, column=8)
 
+
+messagebox.showinfo("(｡･ω･)ﾉﾞ Hello♪", "Try to guess the word!\n\nTip:  The word was mentioned during the Advanced Python Programming course.")
 new_game()
 root.mainloop()
