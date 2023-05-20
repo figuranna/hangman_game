@@ -29,4 +29,4 @@ Ezen listák tartalma nem változik a program működése alatt, csak adatokat s
 *guess*: a játékmenetéért felel, ellenőrzi, hogy a kitalálandó szó karakterei
 megegyeznek-e a felhasználó által beütött karakterekkel.
 ## Program működése
-![A program működési ábrája]()
+![A program működési ábrája](https://github.com/figuranna/hangman_game/assets/101461379/42e71d8c-40eb-427d-a346-93d57ea82423)
