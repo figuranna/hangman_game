@@ -1,5 +1,6 @@
 # Python Akasztófa
 A Haladó Python kurzuson tanult angol kifejezéseket felhasználó akasztófa játék, melyben az adatbevitel a megjelenő gombokra kattintva lehetséges. A program számon tartja a sikeres és sikertelen találatok számát, melyről a felhasználó egy **messagebox**-on keresztül értesül teljesítményéről.
+
 ![Maga a program](https://github.com/figuranna/hangman_game/assets/101461379/67a8a043-b88a-4cfe-bf60-0036d1c64a04)
 ## Importált csomagok
 *random*
