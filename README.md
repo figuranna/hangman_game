@@ -7,7 +7,7 @@ A Haladó Python kurzuson tanult angol kifejezéseket felhasználó akasztófa j
 
 *string -> ascii_uppercase*
 
-*tkinter –> * *
+_tkinter –> *_
 
 *tkinter –> messagebox*
 
