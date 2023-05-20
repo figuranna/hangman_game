@@ -1,5 +1,5 @@
 # Python Akasztófa
-A Haladó Python kurzuson tanult angol kifejezéseket felhasználó akasztófa játék. Az adatbevitel a megjelenő gombokra kattintva lehetséges. A program számon tartja a sikeres és sikertelen találatok számát melyről a felhasználó egy **messagebox**-on keresztül értesül teljesítményéről.
+A Haladó Python kurzuson tanult angol kifejezéseket felhasználó akasztófa játék, melyben az adatbevitel a megjelenő gombokra kattintva lehetséges. A program számon tartja a sikeres és sikertelen találatok számát, melyről a felhasználó egy **messagebox**-on keresztül értesül teljesítményéről.
 ## Importált csomagok
 *random*
 *string -> ascii_uppercase*
