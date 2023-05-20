@@ -50,5 +50,23 @@ Ezen listák tartalma nem változik a program működése alatt, csak adatokat s
 - *guess*: a játékmenetéért felel, ellenőrzi, hogy a kitalálandó szó karakterei
 megegyeznek-e a felhasználó által beütött karakterekkel.
 
+## Algoritmusok
+Itt ellenőzi, hogy a beütött betű megegyezik-e a kitalálandó szó bármely karakterével.
+
+```
+for c in range(len(word)):
+if word[c] == char:
+guessed[c] = char
+guess_word.set("".join(guessed))
+```
+
+Az *ascii_uppercase*-en végigfutva létrehoz gombokat az angol ábécé betűivel.
+```
+for char in ascii_uppercase:
+Button(root, text=char, command=lambda char=char: guess(char),
+fg=text_color, font=('Verdena 18'), width=4).grid(row=1 + n // 9, column=n % 9)
+n += 1
+```
+
 ## Program működése
 ![A program működési ábrája](https://github.com/figuranna/hangman_game/assets/101461379/42e71d8c-40eb-427d-a346-93d57ea82423)
